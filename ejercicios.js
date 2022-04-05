@@ -22,12 +22,33 @@ document.write("la suma es: " + (parseInt(num1) + parseInt(num2)) + "\n \n;");
 var nu1 = prompt("ingrese un numero");
 var nu2 = prompt("ingrese otro numero");
 if (parseInt(nu1) > parseInt(nu2)) {
-    document.write(nu1);
+    document.write(nu1 + "\n \n;");
 }
 else {
-    document.write(nu2);
+    document.write(nu2 + "\n \n;");
 }
 
 //7 Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
-var n1 =
+var n1 = prompt("ingrese un numero");
+var n2 = prompt("ingrese otro numero");
+var n3 = prompt("ingrese otro numero");
+if(n1>n2 & n1>n3){
+    document.write(n1 + "\n \n;");
+}
+else if (n2>n3){
+    document.write(n2 + "\n \n;");
+}
+else{
+    document.write(n3 + "\n \n;");
+}
 
+//8 Escribe un programa que pida un número y diga si es divisible por 2
+var n1 = prompt("ingrese un numero");
+if(n1%2 ===0){
+    document.write("es divisible por 2" + "\n \n;");
+}
+else{
+    document.write("no es divisible por 2" + "\n \n;")
+}
+
+//9 Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a
